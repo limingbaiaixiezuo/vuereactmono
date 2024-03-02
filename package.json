@@ -1,0 +1,15 @@
+{
+  "name": "pnpmonorepo20240302",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:vue": "pnpm --filter vue-app dev",
+    "dev:react": "pnpm --filter react-app dev",
+    "build:vue": "pnpm --filter vue-app build",
+    "build:react": "pnpm --filter react-app build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
